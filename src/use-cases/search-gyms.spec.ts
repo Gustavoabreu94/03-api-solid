@@ -52,7 +52,7 @@ describe('Fetch User Check-in History Use Case', () => {
       query: 'JavaScript',
       page: 2,
     })
-    console.log(gyms)
+
     expect(gyms).toHaveLength(2)
     expect(gyms).toEqual([
       expect.objectContaining({ title: 'JavaScript Gym 21' }),
