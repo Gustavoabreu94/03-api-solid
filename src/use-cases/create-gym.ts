@@ -5,8 +5,8 @@ interface CreateGymUseCaseRequest {
   title: string
   description: string | null
   phone: string | null
-  longitude: string
-  latitude: string
+  longitude: number
+  latitude: number
 }
 
 interface CreateGymUseCaseResponse {
